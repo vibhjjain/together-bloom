@@ -8,33 +8,43 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
+    /* Romantic couples app color palette */
     --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --foreground: 340 10% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 340 10% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 340 10% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 340 75% 65%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 340 85% 80%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 320 30% 95%;
+    --secondary-foreground: 340 10% 15%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 320 20% 97%;
+    --muted-foreground: 340 8% 45%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 310 60% 90%;
+    --accent-foreground: 340 10% 15%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 320 20% 90%;
+    --input: 320 20% 96%;
+    --ring: 340 75% 65%;
+
+    /* Custom romantic tokens */
+    --love-gradient: linear-gradient(135deg, hsl(340 75% 65%), hsl(320 70% 70%));
+    --warm-gradient: linear-gradient(180deg, hsl(320 30% 98%), hsl(310 25% 96%));
+    --heart-glow: 340 85% 80%;
+    --romantic-shadow: 0 10px 30px -10px hsl(340 75% 65% / 0.2);
+    --soft-shadow: 0 4px 20px -4px hsl(320 30% 80% / 0.3);
+    --transition-romantic: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
     --radius: 0.5rem;
 
